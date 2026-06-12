@@ -39,9 +39,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
   }
 
-
+  body::-webkit-scrollbar { display: none; } /* Chrome/Safari */
 
   img { max-width: 100%; display: block; }
   a { color: inherit; text-decoration: none; }
